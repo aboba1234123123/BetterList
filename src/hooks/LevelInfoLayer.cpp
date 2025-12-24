@@ -42,7 +42,7 @@ class $modify(LevelInfoLayer) {
 
         auto levelID = level->m_levelID.value();
 
-        auto url = "https://api.demonlist.org/levels/classic?search=" + std::to_string(levelID);
+        auto url = "https://api.demonlist.org/level/classic?search=" + std::to_string(levelID);
         auto request = web::WebRequest();
         m_fields->m_listener.setFilter(request.get(url));
 
