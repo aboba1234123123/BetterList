@@ -8,8 +8,8 @@
 	},
 	"id": "saqult.betterlist",
 	"name": "betterlist",
-	"version": "v1.0.0",
-	"developer": "saQult",
+	"version": "v1.1",
+	"developer": "erdemych",
 	"description": "adds better list (global list) integration",
 	"resources": {
 		"spritesheets": {
